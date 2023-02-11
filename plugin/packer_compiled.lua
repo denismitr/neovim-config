@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ReplaceWithRegister = {
+    loaded = true,
+    path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
+    url = "https://github.com/vim-scripts/ReplaceWithRegister"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -184,6 +189,16 @@ _G.packer_plugins = {
     path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-maximizer"] = {
+    loaded = true,
+    path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    url = "https://github.com/szw/vim-maximizer"
+  },
+  ["vim-nightfly-guicolors"] = {
+    loaded = true,
+    path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
+    url = "https://github.com/bluz71/vim-nightfly-guicolors"
+  },
   ["vim-rhubarb"] = {
     loaded = true,
     path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/vim-rhubarb",
@@ -193,6 +208,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/vim-sleuth",
     url = "https://github.com/tpope/vim-sleuth"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/dlmitrofanov/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
