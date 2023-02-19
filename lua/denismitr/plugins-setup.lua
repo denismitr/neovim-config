@@ -39,6 +39,14 @@ local startup_success = packer.startup(function(use)
   use "tpope/vim-surround" 
   use "vim-scripts/ReplaceWithRegister"
 
+  use {
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+      'nvim-tree/nvim-web-devicons', -- optional, for file icons
+    },
+    tag = 'nightly' -- optional, updated every week. (see issue #1193)
+  }
+
   use { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
     requires = {
@@ -123,5 +131,4 @@ end
 --  group = packer_group,
 --  pattern = vim.fn.expand '$MYVIMRC',
 -- })
-
 
